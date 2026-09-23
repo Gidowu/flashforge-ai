@@ -1,0 +1,12 @@
+run = "npm install && npm run build && npm start"
+entrypoint = "server/index.js"
+
+[env]
+XDG_CONFIG_HOME = "/home/runner/.config"
+
+[nix]
+channel = "stable-24_05"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
