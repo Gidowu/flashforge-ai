@@ -8,5 +8,5 @@ XDG_CONFIG_HOME = "/home/runner/.config"
 channel = "stable-24_05"
 
 [[ports]]
-localPort = 3000
+localPort = 5000
 externalPort = 80

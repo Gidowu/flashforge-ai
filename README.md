@@ -20,7 +20,7 @@ app always works, even with zero configuration.
 
 ```bash
 npm install
-npm run dev       # Vite dev server (5173) + Express API (3000) with hot reload
+npm run dev       # Vite dev server (5173) + Express API (5000) with hot reload
 ```
 
 ## Run in production mode (what Replit runs)
@@ -28,7 +28,7 @@ npm run dev       # Vite dev server (5173) + Express API (3000) with hot reload
 ```bash
 npm install
 npm run build
-npm start         # serves the built frontend + API on PORT (default 3000)
+npm start         # serves the built frontend + API on PORT (default 5000)
 ```
 
 ## Enable real AI generation

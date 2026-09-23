@@ -50,8 +50,8 @@ app.get('*', (req, res, next) => {
   res.sendFile(path.join(distDir, 'index.html'));
 });
 
-const port = process.env.PORT || 3000;
-app.listen(port, () => {
+const port = process.env.PORT || 5000;
+app.listen(port, '0.0.0.0', () => {
   console.log(`FlashForge AI listening on http://localhost:${port}`);
   console.log(
     process.env.ANTHROPIC_API_KEY
